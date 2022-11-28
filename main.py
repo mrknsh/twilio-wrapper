@@ -55,8 +55,8 @@ elif mode == '2':
     message_array = [main_message]
 
 # make user confirm messages and numbers
-print('The following numbers will be sent to: ' + numbers)
-print('The following messages will be sent: ' + message_array)
+print('The following numbers will be sent to: ' + str(numbers))
+print('The following messages will be sent: ' + str(message_array))
 # type 'yes' to continue
 if input('Type "yes" to continue: ') != 'yes':
     print('Exiting...')
