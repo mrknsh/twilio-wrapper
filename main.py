@@ -54,6 +54,14 @@ elif mode == '2':
         main_message += message + '\n'
     message_array = [main_message]
 
+# make user confirm messages and numbers
+print('The following numbers will be sent to: ' + numbers)
+print('The following messages will be sent: ' + message_array)
+# type 'yes' to continue
+if input('Type "yes" to continue: ') != 'yes':
+    print('Exiting...')
+    exit()
+
 print("Sending Messages...")
 # send each message to each number
 for number in numbers:
