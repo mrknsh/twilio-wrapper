@@ -1,6 +1,6 @@
 # NOTES
 # if using a CSV, don't use UTF-8
-# make sure you replace the weird curly commas with normal commas
+# make sure you replace the weird curly apostrophes with normal apostrophes
 
 import os
 import time
